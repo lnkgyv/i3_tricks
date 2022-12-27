@@ -1,0 +1,9 @@
+By pressing $mod+l produces submenu string with next actions:
+- lock
+- logout
+- suspend
+- hibernate
+- reboot
+- shutdown
+
+All actions(exclude lock) depends on 'sudo' + 'systemd'. You are free to change 'i3exit.sh' to replace these tools.
